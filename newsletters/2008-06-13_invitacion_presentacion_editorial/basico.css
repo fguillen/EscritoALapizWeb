@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+font-family:Arial, Helvetica, sans-serif; font-size: 11px;
+}
+
+#contenido{
+width: 600px; margin: 0px auto;
+}
+
+
+#cabecera{
+margin: 0px; text-align: center; font-size: 12px;
+}
+
+#imagen{ 
+margin: 0px; height: 450px;
+}
+
+
+#pie{
+margin: 0px; padding-left: 0px; padding-right: 0px;
+}

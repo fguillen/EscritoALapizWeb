@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+#contenedor{
+background-image: none;
+filter: none !important;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./imagenes/fondo_carpeta.png", sizingMethod="crop");
+}
+
+
+
+
+
+#barra_menu #menu_home a{
+background-image: none;
+filter: none !important;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./imagenes/botones/escrito_off.png");
+}
+
+#barra_menu #menu_home.activado a,
+#barra_menu #menu_home a:hover{
+background-image: none;
+filter: none !important;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./imagenes/botones/escrito_on.png");
+}
+
+
+#barra_menu #menu_libros a{
+background-image: none;
+filter: none !important;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./imagenes/botones/libros_off.png");
+}
+
+#barra_menu #menu_libros.activado a,
+#barra_menu #menu_libros a:hover{
+background-image: none;
+filter: none !important;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./imagenes/botones/libros_on.png");
+
+}
+
+
+#barra_menu #menu_blog a{
+background-image: none;
+filter: none !important;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./imagenes/botones/blog_off.png");
+
+}
+
+#barra_menu #menu_blog.activado a,
+#barra_menu #menu_blog a:hover{
+background-image: none;
+filter: none !important;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./imagenes/botones/blog_on.png");
+}
+
+
+#barra_menu #menu_librerias a{
+background-image: none;
+filter: none !important;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./imagenes/botones/librerias_off.png");
+}
+
+#barra_menu #menu_librerias.activado a,
+#barra_menu #menu_librerias a:hover{
+background-image: none;
+filter: none !important;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./imagenes/botones/librerias_on.png");
+}
+
+
+#barra_menu #menu_contacto a{
+background-image: none;
+filter: none !important;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./imagenes/botones/pedidos_off.png");
+}
+
+#barra_menu #menu_contacto.activado a,
+#barra_menu #menu_contacto a:hover{
+background-image: none;
+filter: none !important;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./imagenes/botones/pedidos_on.png");
+}
+
+/*
+* HOME
+*/
+
+.escrito_cuerpo{
+background-image: none;
+filter: none !important;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./imagenes/escrito_fondo.png");
+}
+
+/*
+* BLOG
+*/
+.blog{
+	width: 540px;
+	background-image: none;
+	filter: none !important;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./imagenes/blog_fondo.png", sizingMethod="scale");
+}
+
+
+
+/*
+* LIBROS
+*/
+
+
+.ficha_libro .ficha_libro_cabecera{
+	background-image: none;
+	filter: none !important;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./imagenes/ficha_cabecera.png");
+}
+
+.ficha_libro .ficha_libro_cuerpo{
+height: 100%;
+}
+
+
+/*
+* LIBRERIAS
+*/
+
+.librerias{
+
+}
+
+
+
+
+/*
+* CONTACTO
+*/
+
+.contacto{
+background-image: none;
+filter: none !important;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="./imagenes/contacto_fondo.png");
+}
+

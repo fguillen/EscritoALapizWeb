@@ -1,0 +1,299 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+background-image:url(../imagenes/fondo.jpg);
+background-repeat:repeat-y;
+background-position:left top;
+font-family: "Arial";
+color: #36424a;
+}
+
+p{
+	font-size: 12px;
+}
+
+h2{
+	font-size: 16px;
+}
+
+h3{
+	font-size: 14px;
+}
+
+a{
+color: black;
+}
+
+#wrapper{
+width: 730px;
+margin:0px auto;
+}
+
+#contenedor{
+background-image:url(../imagenes/fondo_carpeta.png);
+background-repeat:no-repeat;
+background-position:left top;
+width: 729px;
+height:422px;
+clear:both;
+
+}
+
+#barra_menu ul{
+margin:0px;
+padding: 0px;
+list-style:none;
+}
+
+#barra_menu ul li{
+margin:0px;
+float:left;
+}
+
+#barra_menu a{
+	height:77px;
+	display:block;
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#barra_menu a span{
+	display: none;
+}
+
+
+#barra_menu #menu_home a{
+width:163px;
+background-image:url(../imagenes/botones/escrito_off.png);
+}
+
+#barra_menu #menu_home.activado a,
+#barra_menu #menu_home a:hover{
+background-image:url(../imagenes/botones/escrito_on.png);
+}
+
+
+#barra_menu #menu_libros a{
+width:134px;
+background-image:url(../imagenes/botones/libros_off.png);
+}
+
+#barra_menu #menu_libros.activado a,
+#barra_menu #menu_libros a:hover{
+background-image:url(../imagenes/botones/libros_on.png);
+}
+
+
+#barra_menu #menu_blog a{
+width:124px;
+background-image:url(../imagenes/botones/blog_off.png);
+}
+
+#barra_menu #menu_blog.activado a,
+#barra_menu #menu_blog a:hover{
+background-image:url(../imagenes/botones/blog_on.png);
+}
+
+
+#barra_menu #menu_librerias a{
+width:134px;
+background-image:url(../imagenes/botones/librerias_off.png);
+}
+
+#barra_menu #menu_librerias.activado a,
+#barra_menu #menu_librerias a:hover{
+background-image:url(../imagenes/botones/librerias_on.png);
+}
+
+
+#barra_menu #menu_contacto a{
+width:175px;
+background-image:url(../imagenes/botones/pedidos_off.png);
+}
+
+#barra_menu #menu_contacto.activado a,
+#barra_menu #menu_contacto a:hover{
+background-image:url(../imagenes/botones/pedidos_on.png);
+}
+
+/*
+* HOME
+*/
+.escrito{
+width:645px;
+margin: 0px 0px 20px 30px;
+}
+
+.escrito_cuerpo{
+background-image:url(../imagenes/escrito_fondo.png);
+background-position:left top;
+background-repeat:no-repeat;
+height:424px;
+padding: 120px 100px 0px 100px;
+}
+
+/*
+* BLOG
+*/
+.blog{
+	width: 645px;
+	margin: 0px 0px 20px 30px;
+	background-image:url(../imagenes/blog_fondo.png);
+	background-position:left top;
+	background-repeat:repeat-y;
+	height:500px;
+	padding: 20px 10px 0px 65px;
+}
+
+.blog .anima{
+
+}
+
+
+/*
+* LIBROS
+*/
+
+.ficha_libro{
+width:645px;
+margin: 0px 0px 40px 30px;
+}
+
+.ficha_libro div{
+margin:0px;
+border:0px;
+}
+
+.ficha_libro .ficha_libro_cabecera{
+background-image:url(../imagenes/ficha_cabecera.png);
+background-position:left top;
+background-repeat:no-repeat;
+height:80px;
+/*border:1px solid red;*/
+}
+
+.ficha_libro .ficha_libro_cuerpo{
+background-image:url(../imagenes/ficha_cuerpo.png);
+background-position:left top;
+background-repeat:repeat-y;
+overflow:auto;
+/*border:1px solid red;*/
+}
+
+.ficha_libro .ficha_libro_cuerpo .ficha_libro_imagen{
+width: 300px;
+padding: 0px 0px 0px 5px;
+text-align: center;
+clear: left;
+float: left;
+}
+
+.ficha_libro .ficha_libro_cuerpo .ficha_libro_texto{
+width: 200px;
+float: left;
+padding: 0px 10px 10px 33px;
+}
+
+.ficha_libro .ficha_libro_cuerpo .ficha_libro_texto p{
+padding: 0px 0px 0px 5px;
+margin: 0px 0px 5px 0px;
+}
+.ficha_libro .ficha_libro_cuerpo .ficha_libro_texto h2{
+	margin: 0px 0px 5px 0px;
+}
+
+.ficha_libro .ficha_libro_cuerpo .ficha_libro_texto h3{
+	margin: 10px 0px 5px 0px;
+}
+
+
+
+/*
+* LIBRERIAS
+*/
+
+.librerias{
+width: 645px;
+margin-left: 30px;
+margin-bottom:20px;
+background-image:url(../imagenes/librerias_fondo.png);
+background-position:left top;
+background-repeat:repeat-y;
+
+}
+
+
+
+.librerias_imagenes{
+	padding: 50px 0px 20px 5px;
+ float:left;
+}
+
+
+.librerias_fichas{
+	padding: 20px 50px 40px 280px;
+}
+
+
+.librerias h2{
+margin: 10px 0px 0px 0px;
+}
+
+.librerias_ficha h3{
+margin: 10px 0px 0px 0px;
+padding: 0px;
+}
+
+
+.librerias_ficha p{
+margin: 0px;
+padding: 0px;
+}
+
+.librerias_ficha a{
+  color: #36424A;
+  text-decoration: none;
+}
+
+.librerias_ficha a:hover{
+  text-decoration: underline;
+}
+
+/*
+* CONTACTO
+*/
+
+.contacto{
+width: 645px;
+margin-left: 30px;
+margin-bottom:20px;
+background-image:url(../imagenes/contacto_fondo.jpg);
+background-position:left top;
+background-repeat:repeat-y;
+}
+
+.contacto .contacto_formulario{
+padding: 10px 150px 40px 60px;	
+}
+
+.contacto .contacto_gracias,
+.contacto .contacto_error{
+padding: 100px 150px 100px 60px;	
+}
+
+.contacto .contacto_formulario p{
+	text-align: right;
+vertical-align: text-top;
+}
+
+.contacto .contacto_formulario .contacto_formulario_nombre,
+.contacto .contacto_formulario .contacto_formulario_email,
+.contacto .contacto_formulario .contacto_formulario_texto{
+	border: 1px solid #36424a;
+	width: 300px;
+}
+
+.contacto .contacto_formulario .contacto_formulario_texto{
+	height: 100px;
+}
